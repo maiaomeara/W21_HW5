@@ -1,3 +1,9 @@
+#########################################
+##### Name: Maia O'Meara            #####
+##### Uniqname: maiao               #####
+##### Date: March 29                #####
+#########################################
+
 import unittest
 import hw5_cards
 
@@ -21,7 +27,7 @@ class TestCard(unittest.TestCase):
         self.assertEqual(c2.suit_name, "Clubs")
         self.assertEqual(c2.rank, 1)
         self.assertEqual(c2.rank_name, "Ace")
-        
+
     def test_q1(self):
         '''
         1. fill in your test method for question 1:

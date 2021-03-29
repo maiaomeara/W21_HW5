@@ -2,16 +2,16 @@ import random
 import unittest
 
 VERSION = 0.01
- 
+
 class Card:
     '''a standard playing card
     cards will have a suit and a rank
     Class Attributes
     ----------------
     suit_names: list
-        the four suit names in order 
+        the four suit names in order
         0:Diamonds, 1:Clubs, 2: Hearts, 3: Spades
-    
+
     faces: dict
         maps face cards' rank name
         1:Ace, 11:Jack, 12:Queen,  13:King
@@ -28,7 +28,7 @@ class Card:
     '''
     suit_names = ["Diamonds","Clubs","Hearts","Spades"]
     faces = {1:"Ace",11:"Jack",12:"Queen",13:"King"}
- 
+
 
     def __init__(self, suit=0,rank=2):
         self.suit = suit
